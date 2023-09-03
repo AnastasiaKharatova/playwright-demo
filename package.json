@@ -1,0 +1,15 @@
+{
+  "name": "project-local-coding",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests for local-coding.us",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "author": "Anastasiya Kharatova",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "1.37.1"
+  }
+}
